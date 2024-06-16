@@ -1,0 +1,37 @@
+*{
+    margin:0;
+}
+
+.element{
+    position:relative;
+    height: 100vh;
+    width:100%;
+    overflow: hidden;
+}
+
+.element video{
+    position:absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top:50%;
+    left:50%;
+    z-index:-100;
+    transform:translate(-50%,-50%);
+}
+
+
+
+.list a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    opacity: 100%;
+    text-align:center;
+}
+
+.list{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+    background-color: black;
+}
