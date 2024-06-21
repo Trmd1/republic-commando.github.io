@@ -88,11 +88,10 @@
     opacity: 55%;
     border:4px solid black;
     border-radius: 25%;
+    transition: width 0.3s ease-in;
 }
 
 .cards img:hover{
     opacity:100%;
-}
-.cards img:active{
-    width:auto;
+    width:500px;
 }
